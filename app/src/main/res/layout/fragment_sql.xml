@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/sqlButtonInsert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insert the test users."
+        />
+
+    <Button
+        android:id="@+id/sqlButtonRefresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Refresh the layout."
+        />
+
+    <LinearLayout
+        android:id="@+id/sqlTableContainer"
+        android:orientation="vertical"
+        android:background="#dddddd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+        </LinearLayout>
+
+</LinearLayout>

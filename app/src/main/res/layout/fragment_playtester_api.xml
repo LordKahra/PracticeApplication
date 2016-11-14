@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log in."
+        android:id="@+id/playtester_button_login" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/playtester_button_login"
+        android:text="Get Matches"
+        android:id="@+id/playtester_button_request_matches" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/playtester_button_request_matches"
+        android:text="Create Game"
+        android:id="@+id/playtester_button_create_game" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        >
+
+        <TextView
+            android:id="@+id/playtesterDebugText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login Status: Unknown"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:scrollbars="vertical" />
+
+    </ScrollView>
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New ToggleButton"
+        android:id="@+id/authenticationStatusButton"
+        android:textOn="Logged In"
+        android:textOff="Not Logged In"
+        android:clickable="false"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/playtester_matchmaking_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/authenticationStatusButton"
+        android:text="MATCH STATUS UNKNOWN"
+        />
+
+</RelativeLayout>

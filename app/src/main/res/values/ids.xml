@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="backstack_button_a" type="id"/>
+    <item name="backstack_button_b" type="id"/>
+    <item name="backstack_button_c" type="id"/>
+    <item name="mvc_button_a" type="id"/>
+    <item name="mvc_button_b" type="id"/>
+    <item name="mvc_button_c" type="id"/>
+    <item name="mvc_textview_a" type="id"/>
+    <item name="mvc_textview_b" type="id"/>
+    <item name="mvc_textview_c" type="id"/>
+</resources>

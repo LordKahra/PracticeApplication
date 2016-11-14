@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Practice Application</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="action_notification_practice">Notifications</string>
+    <string name="action_sql_practice">SQL Database</string>
+    <string name="action_playtester_api_practice">Playtester API</string>
+    <string name="action_file_practice">Files</string>
+    <string name="action_dialog_practice">Dialog</string>
+    <string name="action_listview_practice">ListView</string>
+    <string name="action_backstack_practice">Back Stack</string>
+    <string name="action_mvc_practice">Model View Controller</string>
+    <string name="placeholder">Placeholder Text</string>
+
+</resources>
