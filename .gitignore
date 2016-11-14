@@ -1,9 +1,25 @@
-*.iml
-.gradle
-/local.properties
+# Windows thumbnail db
+Thumbs.db
+
+# OSX files
 .DS_Store
-/build
-/captures
 
+# Local configuration file (sdk path, etc)
+local.properties
 
-.idea/*
+# generated files
+bin/
+gen/
+build/
+captures/
+
+# Eclipse project files
+.classpath
+.project
+
+# Android Studio
+.idea
+#.idea/workspace.xml    - remove # and delete .idea if it better suit your needs.
+# .gradle               - Pushable since 0.3 - Use default gradle wrapper and auto import.
+.gradle/
+#*.iml - Pushable since 0.3.
